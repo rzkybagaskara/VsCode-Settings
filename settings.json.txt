@@ -1,0 +1,77 @@
+{
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "editor.formatOnSave": true,
+  "editor.linkedEditing": true,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "prettier.printWidth": 240,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "python.languageServer": "Default",
+  "terminal.integrated.shell.windows": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+  "liveServer.settings.donotShowInfoMsg": true,
+  "workbench.iconTheme": "material-icon-theme",
+  "notebook.cellToolbarLocation": {
+    "default": "right",
+    "jupyter-notebook": "left"
+  },
+  "python.defaultInterpreterPath": "",
+  "json.schemas": [
+    {
+      "fileMatch": ["/zapp.json"],
+      "url": "file:///c%3A/Users/RizkyBagaskara/.vscode/extensions/ibm.zopeneditor-1.2.7/resources/zapp-schema-0.0.2.json"
+    }
+  ],
+  "editor.fontFamily": "JetBrains Mono, Hack, Courier New, monospace",
+  "editor.fontSize": 15,
+  "editor.fontLigatures": false,
+  "editor.fontWeight": 500,
+  "gopls": {
+    "experimentalWorkspaceModule": true
+  },
+  "code-runner.runInTerminal": true,
+  // Organize imports
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": true
+  },
+  //Prettier
+  "[html]": {
+    "editor.formatOnSave": false
+  },
+  "[css]": {
+    "editor.formatOnSave": false
+  },
+  "[dart]": {
+    "editor.defaultFormatter": "Dart-Code.dart-code",
+    "editor.formatOnSave": true
+  },
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.python"
+  },
+
+  "editor.wordWrap": "on",
+  "material-icon-theme.folders.color": "#42a5f5",
+  "material-icon-theme.folders.theme": "specific",
+  "terminal.integrated.gpuAcceleration": "off",
+  "prettier.singleQuote": true,
+
+  // Pointer
+  "editor.cursorBlinking": "expand",
+  "editor.cursorStyle": "line",
+
+  // Workbench Customization
+  "workbench.colorCustomizations": {
+    "statusBar.background": "#212227", //212227 original
+    "statusBar.noFolderBackground": "#212121",
+    "statusBar.debuggingBackground": "#263238"
+  },
+  "workbench.startupEditor": "none",
+  "window.zoomLevel": 1,
+
+  "terminal.integrated.defaultProfile.windows": "Command Prompt",
+  // Emmet
+  "emmet.includeLanguages": {
+    "javascript": "html"
+  },
+  "workbench.colorTheme": "One Dark Pro Darker",
+  "errorLens.enabledDiagnosticLevels": ["error", "info", "warning"]
+}
