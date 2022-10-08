@@ -7,14 +7,9 @@
   "prettier.printWidth": 240,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "python.languageServer": "Default",
-  "terminal.integrated.shell.windows": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
   "liveServer.settings.donotShowInfoMsg": true,
   "workbench.iconTheme": "material-icon-theme",
-  "notebook.cellToolbarLocation": {
-    "default": "right",
-    "jupyter-notebook": "left"
-  },
-  "python.defaultInterpreterPath": "",
+  "python.defaultInterpreterPath": "enter the path here",
   "json.schemas": [
     {
       "fileMatch": ["/zapp.json"],
@@ -66,12 +61,13 @@
   },
   "workbench.startupEditor": "none",
   "window.zoomLevel": 1,
-
-  "terminal.integrated.defaultProfile.windows": "Command Prompt",
+	
+  // Default Terminal
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
   // Emmet
   "emmet.includeLanguages": {
     "javascript": "html"
   },
-  "workbench.colorTheme": "One Dark Pro Darker",
+  "workbench.colorTheme": "Moonlight II",
   "errorLens.enabledDiagnosticLevels": ["error", "info", "warning"]
 }
